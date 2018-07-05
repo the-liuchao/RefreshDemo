@@ -70,18 +70,23 @@ Page({
       url: path,
     })
   },
+  //触摸开始
   handletouchstart: function (event) {
     this.refreshView.handletouchstart(event)
   },
+  //触摸移动
   handletouchmove: function (event) {
     this.refreshView.handletouchmove(event)
   },
+  //触摸结束
   handletouchend: function (event) {
     this.refreshView.handletouchend(event)
   },
+  //触摸取消
   handletouchcancel: function (event) {
     this.refreshView.handletouchcancel(event)
   },
+  //页面滚动
   onPageScroll: function (event) {
     this.refreshView.onPageScroll(event)
   },
