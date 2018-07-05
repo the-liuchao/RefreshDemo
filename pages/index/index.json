@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ff0000",
+  "backgroundColor": "#ff0000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "refresh-view": "/components/RefreshView/refresh-view"
+  }
+}
